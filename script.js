@@ -49,7 +49,7 @@ yesButton.addEventListener("click", () => {
 
     // Create and display the congratulatory message
     let p = document.createElement("p");
-    p.innerText = "Congrats ou've just said 'yes' to potentially the best date of our lives.  \nDM me the time and venue 😉";
+    p.innerText = "Congrats you've just said 'yes' to potentially the best date of our lives.  \nDM me the time and venue 😉";
     p.style.fontSize = "2rem";
     p.style.fontWeight = "bold";
     p.style.textAlign = "center";
