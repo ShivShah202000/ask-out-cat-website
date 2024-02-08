@@ -36,7 +36,7 @@ yesButton.addEventListener("click", () => {
     header.style.display = "none";
     gif.style.display = "none";
 
-    // Change the style of the confetti canvas
+
     confettiElement.style.position = "absolute";
     confettiElement.style.top = "0";
     confettiElement.style.left = "0";
@@ -49,7 +49,7 @@ yesButton.addEventListener("click", () => {
 
     // Create and display the congratulatory message
     let p = document.createElement("p");
-    p.innerText = "Congrats you made the right choice 🎉 \nDM me the time and venue 😉";
+    p.innerText = "Congrats ou've just said 'yes' to potentially the best date of our lives.  \nDM me the time and venue 😉";
     p.style.fontSize = "2rem";
     p.style.fontWeight = "bold";
     p.style.textAlign = "center";
@@ -59,14 +59,14 @@ yesButton.addEventListener("click", () => {
     p.style.transform = "translate(-50%, -50%)";
     document.body.appendChild(p);
 
-    // Add a new GIF below the message
+  
     let newGif = document.createElement("img");
-    newGif.src = "chipi-chipi-chapa-chapa.gif"; // Update this path to your new GIF
+    newGif.src = "chipi-chipi-chapa-chapa.gif"; 
     newGif.alt = "Celebration";
     newGif.style.maxWidth = "100%";
     newGif.style.height = "auto";
     newGif.style.display = "block";
-    newGif.style.marginTop = "20px"; // Adjust this value as needed
+    newGif.style.marginTop = "20px"; 
     newGif.style.position = "absolute";
     newGif.style.left = "50%";
     newGif.style.transform = "translateX(-50%)";
