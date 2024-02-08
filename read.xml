@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>ask-out-cat-website</name>
+    <description>An example web project with HTML, CSS, and JavaScript files.</description>
+    <repository>
+        <url>https://github.com/ShivShah202000/ask-out-cat-website</url>
+        <type>public</type>
+    </repository>
+    <files>
+        <file>
+            <type>HTML</type>
+            <name>index.html</name>
+            <path>/index.html</path>
+        </file>
+        <file>
+            <type>CSS</type>
+            <name>styles.css</name>
+            <path>/styles.css</path>
+        </file>
+        <file>
+            <type>JavaScript</type>
+            <name>script.js</name>
+            <path>/script.js</path>
+        </file>
+    </files>
+</project>
